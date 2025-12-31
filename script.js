@@ -1,3 +1,4 @@
+
 const beginBtn = document.getElementById('beginBtn');
 const resetBtn = document.getElementById('resetBtn');
 const headSelection = document.getElementById('headSelection');
@@ -633,4 +634,3 @@ downloadBtn.addEventListener('click', function() {
     // Start drawing from first layer
     drawLayers(0);
 });
-   
