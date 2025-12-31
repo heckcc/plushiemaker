@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="buttons.css">
+</head>
+<body>
+     <video autoplay muted loop id="background-video">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+   <button id="resetBtn">RESET</button>
+    
+    <div id="characterContainer"style="display: none;"></div>
+    
+    <div id="headSelection" style="display: none;"></div>
+    
+    <button id="beginBtn">BEGIN</button>
+
+    <button id="proceed1" style="display: none;">PROCEED</button>
+
+    <div id="headCounter" style="position: fixed; top: 20px; right: 20px; color: transparent; font-size: 20px; z-index: 100;">
+    Head: <span id="currentHead">1</span>
+</div>
+<div id="shirtSelection" style="display: none;"></div>
+<div id="shirtCounter" style="position: fixed; top: 40px; right: 20px; color: transparent; font-size: 20px; z-index: 100;">
+    Shirt: <span id="currentShirt">1</span>
+</div>
+<button id="proceed2" style="display: none;">PROCEED</button>
+
+<div id="pantsSelection" style="display: none;"></div>
+<div id="pantsCounter" style="position: fixed; top: 60px; right: 20px; color: transparent; font-size: 20px; z-index: 100;">
+    Pants: <span id="currentPants">1</span>
+</div>
+<button id="proceed3" style="display: none;">PROCEED</button>
+
+<div id="heartSelection" style="display: none;"></div>
+<div id="heartCounter" style="position: fixed; top: 80px; right: 20px; color: transparent; font-size: 20px; z-index: 100;">
+    Heart: <span id="currentHeart">0</span>
+</div>
+<button id="finalizeBtn" style="display: none;">PROCEED</button>
+<button id="finishBtn" style="display: none;">FINALIZE</button>
+
+    <button id="arrowRight" class="arrow-btn"> > </button>
+<button id="arrowLeft" class="arrow-btn"> < </button>
+
+<div id="instructions1" style="display: none;">
+    <p>SELECT THE HEAD THAT YOU PREFER</p>
+</div>
+<div id="instructions2" style="display: none;">
+    <p>SELECT THE TORSO THAT YOU PREFER</p>
+</div>
+<div id="instructions3" style="display: none;">
+    <p>SELECT THE LEGS THAT YOU PREFER</p>
+</div>
+<div id="instructions4" style="display: none;">
+    <p>NOW GIVE IT A GIFT</p>
+    <p>(first option is none)</p>
+</div>
+<div id="instructions5" style="display: none;">
+    <p>NOW GIVE IT A HOME</p>
+    <p>(first option is none)</p>
+</div>
+
+<div id="backgroundContainer" style="display: none;"></div>
+<button id="DownloadBtn" style="display: none;">DOWNLOAD</button>
+    <script src="script.js"></script>
+
+</body>
+</html>
